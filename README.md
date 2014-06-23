@@ -1,4 +1,1 @@
-scorpionsql
-===========
-
-SQL utilities for Scorpion 
+sql-related packages for scorpion
