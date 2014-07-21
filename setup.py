@@ -9,7 +9,7 @@ import scorpionsql
 
 setup(name="scorpionsql",
     version=scorpionsql.__version__,
-    description="sql packaged used by scorpion and summary",
+    description="SQL-related and other shared packages used by scorpion and dbwipes",
     license="MIT",
     author="Eugene Wu",
     author_email="eugenewu@mit.edu",
