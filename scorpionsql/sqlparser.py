@@ -43,7 +43,7 @@ class SqlParser(object):
             print ret
             return json.loads(ret)
         except subprocess.CalledProcessError as e:
-            print >>sys.err, str(e)
+            print >>sys.stderr, str(e)
             import traceback
             traceback.print_exc()
             return None

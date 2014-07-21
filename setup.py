@@ -20,7 +20,8 @@ setup(name="scorpionsql",
     scripts = [ ],
     package_data = {
       'scorpion': [
-        'jars/*'
+        'jars/scala-library.jar',
+        'jars/sqlparser.jar'
       ]
     },
     install_requires = [
